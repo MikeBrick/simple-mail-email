@@ -10,6 +10,7 @@ set(CMAKE_AUTOMOC ON)
 
 set(CMAKE_CXX_VISIBILITY_PRESET hidden)
 set(CMAKE_VISIBILITY_INLINES_HIDDEN 1)
+set(CMAKE_OSX_ARCHITECTURES x86_64)  #das ist die Lösung (auf m1 m2 rechnern für alle Qt5-Projekte, die ja nur intel-libs haben
 
 # Include our cmake modules
 set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules)
